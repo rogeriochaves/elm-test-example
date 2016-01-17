@@ -1,0 +1,21 @@
+{
+  "name": "test-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/elm-test/bin/elm-test test/TestRunner.elm",
+    "dev-test": "./node_modules/gulp/bin/gulp.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "elm-test": "^0.16.0",
+    "gulp": "^3.9.0",
+    "gulp-shell": "^0.5.1"
+  }
+}
